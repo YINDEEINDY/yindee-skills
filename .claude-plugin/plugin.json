@@ -1,0 +1,13 @@
+{
+  "name": "yindee-skills",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes. Adapted from Andrej Karpathy's observations and forrestchang/andrej-karpathy-skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yindee",
+    "email": "eecprogrammer@gmail.com",
+    "url": "https://github.com/YINDEEINDY"
+  },
+  "license": "MIT",
+  "keywords": ["guidelines", "best-practices", "coding", "karpathy", "yindee"],
+  "skills": ["./skills/karpathy-guidelines"]
+}
