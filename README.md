@@ -3,16 +3,9 @@
 > **Forked from [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** and adapted for personal use.
 > Original principles derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
 
-A single `CLAUDE.md` file (or Claude Code plugin) to improve Claude Code behavior, packaged as `yindee-skills`.
+🌐 **Language:** **English** | [ภาษาไทย](./README.th.md) | [简体中文](./README.zh.md)
 
-## Install
-
-```bash
-/plugin marketplace add YINDEEINDY/yindee-skills
-/plugin install yindee-skills@yindee-skills
-```
-
-English | [简体中文](./README.zh.md)
+A Claude Code plugin (or single `CLAUDE.md` file) to improve Claude Code behavior, packaged as `yindee-skills`.
 
 ## The Problems
 
@@ -106,14 +99,11 @@ Strong success criteria let the LLM loop independently. Weak criteria ("make it 
 
 **Option A: Claude Code Plugin (recommended)**
 
-From within Claude Code, first add the marketplace:
-```
-/plugin marketplace add forrestchang/andrej-karpathy-skills
-```
+From within Claude Code:
 
-Then install the plugin:
 ```
-/plugin install andrej-karpathy-skills@karpathy-skills
+/plugin marketplace add YINDEEINDY/yindee-skills
+/plugin install yindee-skills@yindee-skills
 ```
 
 This installs the guidelines as a Claude Code plugin, making the skill available across all your projects.
@@ -122,18 +112,18 @@ This installs the guidelines as a Claude Code plugin, making the skill available
 
 New project:
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/YINDEEINDY/yindee-skills/main/CLAUDE.md
 ```
 
 Existing project (append):
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/YINDEEINDY/yindee-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ## Using with Cursor
 
-This repository includes a committed Cursor project rule ([`.cursor/rules/karpathy-guidelines.mdc`](.cursor/rules/karpathy-guidelines.mdc)) so the same guidelines apply when you open the project in Cursor. See **[CURSOR.md](CURSOR.md)** for setup, using the rule in other projects, and how this relates to Claude Code.
+This repository includes a committed Cursor project rule ([`.cursor/rules/karpathy-guidelines.mdc`](.cursor/rules/karpathy-guidelines.mdc)) so the same guidelines apply when you open the project in Cursor. See **[CURSOR.md](CURSOR.md)** for setup details.
 
 ## Key Insight
 
@@ -171,6 +161,12 @@ For project-specific rules, add sections like:
 These guidelines bias toward **caution over speed**. For trivial tasks (simple typo fixes, obvious one-liners), use judgment — not every change needs the full rigor.
 
 The goal is reducing costly mistakes on non-trivial work, not slowing down simple tasks.
+
+## Credits
+
+- **Original repo:** [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
+- **Inspired by:** [Andrej Karpathy's X post](https://x.com/karpathy/status/2015883857489522876)
+- **Maintained by:** [@YINDEEINDY](https://github.com/YINDEEINDY)
 
 ## License
 
