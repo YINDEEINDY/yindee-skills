@@ -3,7 +3,7 @@
 > **Fork จาก [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** และปรับให้เป็นของตัวเอง
 > หลักการต้นฉบับมาจาก [observations ของ Andrej Karpathy](https://x.com/karpathy/status/2015883857489522876) เรื่องนิสัยพังๆ ของ LLM ตอนเขียนโค้ด
 
-🌐 **ภาษา:** [English](./README.md) | **ภาษาไทย** | [简体中文](./README.zh.md)
+🌐 **ภาษา:** [English](./README.md) | **ภาษาไทย**
 
 Plugin สำหรับ Claude Code (หรือไฟล์ `CLAUDE.md` เดียวๆ) ที่ทำให้ Claude เขียนโค้ดดีขึ้น แพ็กเป็น `yindee-skills`
 

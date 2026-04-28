@@ -3,7 +3,7 @@
 > **Forked from [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** and adapted for personal use.
 > Original principles derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
 
-🌐 **Language:** **English** | [ภาษาไทย](./README.th.md) | [简体中文](./README.zh.md)
+🌐 **Language:** **English** | [ภาษาไทย](./README.th.md)
 
 A Claude Code plugin (or single `CLAUDE.md` file) to improve Claude Code behavior, packaged as `yindee-skills`.
 
